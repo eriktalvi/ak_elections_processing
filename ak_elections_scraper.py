@@ -103,7 +103,7 @@ def main():
 	
 	stateData = process_data(data)
 
-	with open('json.json', 'w') as json_file:
+	with open('akElectionResults2020.json', 'w') as json_file:
 		json.dump(stateData, json_file)
 
 if __name__ == '__main__':
